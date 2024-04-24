@@ -1,0 +1,351 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14
+15    <queries>
+15-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+16        <intent>
+16-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+17            <action android:name="android.media.action.IMAGE_CAPTURE" />
+17-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+17-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+18        </intent>
+19    </queries>
+20
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+21-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:22:5-79
+22-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:22:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:5-68
+23-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
+24-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:26:5-110
+25-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:6:5-28:19
+28        android:name="com.chat.MainApplication"
+28-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:7:7-38
+29        android:allowBackup="false"
+29-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:11:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:9:7-41
+33        android:label="@string/app_name"
+33-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:8:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:10:7-52
+35        android:theme="@style/AppTheme"
+35-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:12:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:8:9-44
+37        <activity
+37-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:11:9-111
+38            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+38-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:11:19-83
+39            android:exported="false" />
+39-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:11:84-108
+40        <activity
+40-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:13:7-24:18
+41            android:name="com.chat.MainActivity"
+41-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:14:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+42-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:16:9-118
+43            android:exported="true"
+43-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:19:9-32
+44            android:label="@string/app_name"
+44-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:15:9-41
+45            android:launchMode="singleTask"
+45-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:17:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:18:9-51
+47            <intent-filter>
+47-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:20:9-23:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:21:13-65
+48-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:21:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:22:13-73
+50-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:22:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <service android:name="com.wix.reactnativenotifications.JSNotifyWhenKilledTask" /> <!-- A proxy-service that gives the library an opportunity to do some work before launching/resuming the actual application task. -->
+54-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:26:7-89
+54-->/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:26:16-86
+55        <service android:name="com.wix.reactnativenotifications.core.ProxyService" />
+55-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:12:9-86
+55-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:12:18-83
+56        <service
+56-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:13:9-20:19
+57            android:name="com.wix.reactnativenotifications.fcm.FcmInstanceIdListenerService"
+57-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:14:13-93
+58            android:exported="true" >
+58-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:15:13-36
+59            <intent-filter>
+59-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:16:13-19:29
+60                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+60-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:17:17-78
+60-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:17:25-75
+61                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+61-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:18:17-80
+61-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:18:25-77
+62            </intent-filter>
+63        </service>
+64        <service
+64-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:21:9-24:72
+65            android:name="com.wix.reactnativenotifications.fcm.FcmInstanceIdRefreshHandlerService"
+65-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:22:13-99
+66            android:exported="false"
+66-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:23:13-37
+67            android:permission="android.permission.BIND_JOB_SERVICE" />
+67-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:24:13-69
+68
+69        <provider
+69-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+70            android:name="androidx.core.content.FileProvider"
+70-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+71            android:authorities="com.chat.provider"
+71-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+72            android:exported="false"
+72-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+73            android:grantUriPermissions="true" >
+73-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+74            <meta-data
+74-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+76                android:resource="@xml/provider_paths" />
+76-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+77        </provider>
+78
+79        <activity
+79-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+80            android:name="com.yalantis.ucrop.UCropActivity"
+80-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+81            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+81-->[:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+82
+83        <receiver
+83-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
+84            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+84-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+85            android:exported="true"
+85-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
+86            android:permission="com.google.android.c2dm.permission.SEND" >
+86-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
+87            <intent-filter>
+87-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:32:13-34:29
+88                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+88-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:33:17-81
+88-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:33:25-78
+89            </intent-filter>
+90        </receiver>
+91        <!--
+92             FirebaseMessagingService performs security checks at runtime,
+93             but set to not exported to explicitly avoid allowing another app to call it.
+94        -->
+95        <service
+95-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+96            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+96-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+99            <intent-filter android:priority="-500" >
+99-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:45:13-47:29
+99-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:45:28-51
+100                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+100-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:17:17-78
+100-->[:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:17:25-75
+101            </intent-filter>
+102        </service>
+103        <service
+103-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+108                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+108-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+111                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+111-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:28:13-30:85
+114                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+114-->[com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:29:17-139
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:30:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+117                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+117-->[com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+120                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+120-->[com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+122            <!--
+123                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+124                clients to use it as well, by defining this registrar in their own core/common library.
+125            -->
+126            <meta-data
+126-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+127                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+127-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+129        </service>
+130        <service
+130-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+131            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+131-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+132            android:exported="false" >
+132-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+133            <meta-data
+133-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+134                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+134-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+135                android:value="cct" />
+135-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+136        </service>
+137        <service
+137-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+138            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+138-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+139            android:exported="false"
+139-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+140            android:permission="android.permission.BIND_JOB_SERVICE" >
+140-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+141        </service>
+142
+143        <receiver
+143-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+144            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+144-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+145            android:exported="false" />
+145-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+146
+147        <meta-data
+147-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+148            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+148-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+149            android:value="GlideModule" />
+149-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+150
+151        <receiver
+151-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:29:9-33:20
+152            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+152-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:30:13-85
+153            android:enabled="true"
+153-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:31:13-35
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:32:13-37
+155        </receiver>
+156        <receiver
+156-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:34:9-42:20
+157            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+157-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:35:13-100
+158            android:enabled="true"
+158-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:36:13-35
+159            android:exported="true"
+159-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:37:13-36
+160            android:permission="android.permission.INSTALL_PACKAGES" >
+160-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:38:13-69
+161            <intent-filter>
+161-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:39:13-41:29
+162                <action android:name="com.android.vending.INSTALL_REFERRER" />
+162-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:40:17-79
+162-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:40:25-76
+163            </intent-filter>
+164        </receiver>
+165
+166        <service
+166-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:44:9-47:40
+167            android:name="com.google.android.gms.measurement.AppMeasurementService"
+167-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:45:13-84
+168            android:enabled="true"
+168-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:46:13-35
+169            android:exported="false" />
+169-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:47:13-37
+170        <service
+170-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:48:9-52:72
+171            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+171-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:49:13-87
+172            android:enabled="true"
+172-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:50:13-35
+173            android:exported="false"
+173-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:51:13-37
+174            android:permission="android.permission.BIND_JOB_SERVICE" />
+174-->[com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:52:13-69
+175
+176        <provider
+176-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+177            android:name="com.google.firebase.provider.FirebaseInitProvider"
+177-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+178            android:authorities="com.chat.firebaseinitprovider"
+178-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+179            android:directBootAware="true"
+179-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+180            android:exported="false"
+180-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+181            android:initOrder="100" />
+181-->[com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+182
+183        <activity
+183-->[com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+184            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+184-->[com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+187
+188        <meta-data
+188-->[com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+189            android:name="com.google.android.gms.version"
+189-->[com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+190            android:value="@integer/google_play_services_version" />
+190-->[com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+191    </application>
+192
+193</manifest>

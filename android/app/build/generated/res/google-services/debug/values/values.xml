@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1030493356280-kbgmvlp7s1vmb8al14qlmcgr9liv5nkg.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1030493356280</string>
+    <string name="google_api_key" translatable="false">AIzaSyAisUDcK5nbh7lV6XMkD1AQkZU3oRHD6-M</string>
+    <string name="google_app_id" translatable="false">1:1030493356280:android:0d1f7a4dc0793950c97b0d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAisUDcK5nbh7lV6XMkD1AQkZU3oRHD6-M</string>
+    <string name="google_storage_bucket" translatable="false">starfly-23d3d.appspot.com</string>
+    <string name="project_id" translatable="false">starfly-23d3d</string>
+</resources>

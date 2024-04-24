@@ -1,0 +1,21 @@
+{
+  "name": "butterfly",
+  "displayName": "butterfly",
+  "senderID": "956112912903",
+  "connectyCubeConfig": [
+    {
+      "appId": 7154,
+      "authKey": "-5VBLPQ3RS7xM49",
+      "authSecret": "PrAXqrTzqcrwDhE"
+    },
+    { "chat": {
+      "streamManagement": {
+        "enable": true
+      }
+    },
+      "debug": {
+        "mode": 1
+      } 
+    }
+  ]
+}

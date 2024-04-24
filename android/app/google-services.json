@@ -1,0 +1,39 @@
+{
+    "project_info": {
+      "project_number": "1030493356280",
+      "project_id": "starfly-23d3d",
+      "storage_bucket": "starfly-23d3d.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:1030493356280:android:0d1f7a4dc0793950c97b0d",
+          "android_client_info": {
+            "package_name": "com.chat"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "1030493356280-kbgmvlp7s1vmb8al14qlmcgr9liv5nkg.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyAisUDcK5nbh7lV6XMkD1AQkZU3oRHD6-M"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "1030493356280-kbgmvlp7s1vmb8al14qlmcgr9liv5nkg.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

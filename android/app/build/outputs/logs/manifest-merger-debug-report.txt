@@ -1,0 +1,803 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:1-29:12
+MERGED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:1-29:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb0f8ee3d831365a007596b52af2d38c/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/487c13a009eb3a56c85c6dec904c7ac2/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:2:1-27:12
+MERGED from [:react-native-community_async-storage] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-autogrow-textinput] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-autogrow-textinput/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-device-info] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fast-image] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-33:12
+MERGED from [:react-native-safe-area-context] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/be396ef7bf1cbc619a8258e4db33b32b/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/d73e4b15a522df654dcebb0c53861eb4/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/trisys-asfahan/.gradle/caches/transforms-3/009aa4a3ba80415e89a17f0fe8117d5e/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/34de6fda2477e5f9c5dc47864aa6ae7e/transformed/jetified-firebase-core-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3daffeb6adb8accbd7a74d9ad7c67f8c/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ac007b21fed6e17c1f975a479972a2ea/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/6eb473a7a301872eacf68cdec1baf350/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1d8382a9bc79468b514a9c746bf74b71/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/54e85deebceb6f917be051ceb97aef75/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1c662dfe008e257fb15dda98a1d6d7b0/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f296b06e5572719db288053dd13475ca/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/671c3d4f1a0c9664980d6d0594b58c90/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/8888f7d5df1e513552d3778b731987b4/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c968a83f91b3b7b36cac4123fe46a2cc/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a6a3be9ffe07d37b8325f18fa5ff1b8/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b5d1c346f2ab24a8571c9a33eda861af/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/782fcbf326bad81c63efa2f874108787/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b8010ebf400d1ad29ce3e5c9100ed5ec/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/a2a5ce4c6326f424a33f244a43fd1232/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/trisys-asfahan/.gradle/caches/transforms-3/195a4529b8fa216aba72cfffe860218d/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/748bacf36b15a1672d2f96bf8bacbcdc/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f4ba5a3ff76900f9d093d35a7e39019f/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/01afbd0f9fd8e79e7895721300b26fc3/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ac040a0ca01214fe2b6372db73818228/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5644da21830e1267e175b19587c85d40/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/66cf1e103253b5eee611b294a7218b91/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/615479644c77a782931208906c74dd18/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3bb2cf05250851271fe15097df3eb931/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9ce4caee1159279f5ca4a746518b4e25/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e438299141a2b4aa4888ce572e7d9aef/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:15:1-49:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/95cc7445bf85766eac65c2bfe1f78a16/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/ad3c9eb459e3bee2b438756e7062dc49/transformed/jetified-firebase-installations-interop-16.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/df594083beef421b82454dddf6a3b9c3/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3ccb8a7529fc8bf8ae8db056f18ea2f8/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a1f9f5621296598f8e2134e5a624bc9/transformed/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/4f04a71d25aff983646c8f75ff74f11a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/052b5addf5118831f28fa511b44afa43/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9dcf1dbe2c7597eeb9f79ca33cc7fbf0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2027280e65c59494bfb7b88c7bf1057/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/6392d286930206aba38b4ab9d3c8de76/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3c627c2c64042d61b3e3bc483fc9b59b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6b686d9061f5facd9d896dd555e2640/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9b01611d655563059df039a958641cc5/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/12406b617b6090009d5b72b5321c4813/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/55dbb9dd0bea211e02cfc60916e5a4f4/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/d2ecdacc0d8a102c5dbcab08e29c68e3/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0b2ef2d983321401ce329e0cc3adf13a/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1a19b23e4d134d45393cb862db4f1959/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3c5efe20fcc9035ff6c2ae8d0e27906a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/179c3a32489c221daed92522c2a70a02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/56b084a1026c08bac475c5d614c8096e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/7454d9843c919450f6d5435b6cb7c26f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/31df19c0cc56678b88d2d090884a46dd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b6465086c69305fe80f3ea21a16ab863/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/4e7e49ba726351eaa3cb3e53a584dd2b/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f6cef41d8828ad3ae46d22993ad96507/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/36fe997d8e0b616dab17b9599b28cbdd/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/a695c1c708351f2b3d170fd4d5b6745b/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ff7a64f925f722683a7640f55105d553/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f0d432bfb1f738ed8a4d5951c666b5c5/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/841edcdf09de984158fea4d05205e665/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ec8cdc2b88f665fcebf108de6962e0c2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/89837b0fe549f1677a6e03f6da99474a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/d583d23f5317275dab9e185cf7939da7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/522fa267deff15487438a819543bffba/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/6cbd8d12134534c387fe36c1ede7776c/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/fbdbc47178d7c2ceee3a19f7553b2b26/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e9f85a70bf02dee0e2804f7ecb2ce9b0/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cfcc645cae72e549fa15172e682b9b2c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/trisys-asfahan/.gradle/caches/transforms-3/9125818c7702fbe54de76dfddb453681/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/71e0ddd7fb065b17878e77cc277aa7a6/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/18cbbc2420984a8cc23de2b510763dc8/transformed/jetified-play-services-measurement-base-15.0.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b65d6a2a88a4360bb5d6b4cda46863d8/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:2:3-21
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:2:3-21
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:9:5-25:19
+MERGED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:9:5-25:19
+MERGED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/be396ef7bf1cbc619a8258e4db33b32b/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/be396ef7bf1cbc619a8258e4db33b32b/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/34de6fda2477e5f9c5dc47864aa6ae7e/transformed/jetified-firebase-core-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/34de6fda2477e5f9c5dc47864aa6ae7e/transformed/jetified-firebase-core-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a6a3be9ffe07d37b8325f18fa5ff1b8/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a6a3be9ffe07d37b8325f18fa5ff1b8/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/748bacf36b15a1672d2f96bf8bacbcdc/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/748bacf36b15a1672d2f96bf8bacbcdc/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9ce4caee1159279f5ca4a746518b4e25/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9ce4caee1159279f5ca4a746518b4e25/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e438299141a2b4aa4888ce572e7d9aef/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e438299141a2b4aa4888ce572e7d9aef/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/95cc7445bf85766eac65c2bfe1f78a16/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/95cc7445bf85766eac65c2bfe1f78a16/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/df594083beef421b82454dddf6a3b9c3/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/df594083beef421b82454dddf6a3b9c3/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3ccb8a7529fc8bf8ae8db056f18ea2f8/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3ccb8a7529fc8bf8ae8db056f18ea2f8/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a1f9f5621296598f8e2134e5a624bc9/transformed/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a1f9f5621296598f8e2134e5a624bc9/transformed/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/36fe997d8e0b616dab17b9599b28cbdd/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/36fe997d8e0b616dab17b9599b28cbdd/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/841edcdf09de984158fea4d05205e665/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/841edcdf09de984158fea4d05205e665/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/trisys-asfahan/.gradle/caches/transforms-3/9125818c7702fbe54de76dfddb453681/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/trisys-asfahan/.gradle/caches/transforms-3/9125818c7702fbe54de76dfddb453681/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/18cbbc2420984a8cc23de2b510763dc8/transformed/jetified-play-services-measurement-base-15.0.4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/18cbbc2420984a8cc23de2b510763dc8/transformed/jetified-play-services-measurement-base-15.0.4/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.chat.MainActivity
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:13:7-24:18
+	android:label
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:exported
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:19:9-32
+	android:configChanges
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:16:9-118
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:22:23-70
+service#com.wix.reactnativenotifications.JSNotifyWhenKilledTask
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:26:7-89
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml:26:16-86
+uses-sdk
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb0f8ee3d831365a007596b52af2d38c/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb0f8ee3d831365a007596b52af2d38c/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/487c13a009eb3a56c85c6dec904c7ac2/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/487c13a009eb3a56c85c6dec904c7ac2/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-autogrow-textinput] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-autogrow-textinput/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-autogrow-textinput] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-autogrow-textinput/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fast-image] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fast-image] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/be396ef7bf1cbc619a8258e4db33b32b/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/be396ef7bf1cbc619a8258e4db33b32b/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/d73e4b15a522df654dcebb0c53861eb4/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/d73e4b15a522df654dcebb0c53861eb4/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/trisys-asfahan/.gradle/caches/transforms-3/009aa4a3ba80415e89a17f0fe8117d5e/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/trisys-asfahan/.gradle/caches/transforms-3/009aa4a3ba80415e89a17f0fe8117d5e/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/34de6fda2477e5f9c5dc47864aa6ae7e/transformed/jetified-firebase-core-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/34de6fda2477e5f9c5dc47864aa6ae7e/transformed/jetified-firebase-core-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3daffeb6adb8accbd7a74d9ad7c67f8c/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3daffeb6adb8accbd7a74d9ad7c67f8c/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ac007b21fed6e17c1f975a479972a2ea/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ac007b21fed6e17c1f975a479972a2ea/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/6eb473a7a301872eacf68cdec1baf350/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/6eb473a7a301872eacf68cdec1baf350/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1d8382a9bc79468b514a9c746bf74b71/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1d8382a9bc79468b514a9c746bf74b71/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/54e85deebceb6f917be051ceb97aef75/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/54e85deebceb6f917be051ceb97aef75/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1c662dfe008e257fb15dda98a1d6d7b0/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1c662dfe008e257fb15dda98a1d6d7b0/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f296b06e5572719db288053dd13475ca/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f296b06e5572719db288053dd13475ca/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/671c3d4f1a0c9664980d6d0594b58c90/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/671c3d4f1a0c9664980d6d0594b58c90/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/8888f7d5df1e513552d3778b731987b4/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/8888f7d5df1e513552d3778b731987b4/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c968a83f91b3b7b36cac4123fe46a2cc/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c968a83f91b3b7b36cac4123fe46a2cc/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a6a3be9ffe07d37b8325f18fa5ff1b8/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a6a3be9ffe07d37b8325f18fa5ff1b8/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b5d1c346f2ab24a8571c9a33eda861af/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b5d1c346f2ab24a8571c9a33eda861af/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/782fcbf326bad81c63efa2f874108787/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/782fcbf326bad81c63efa2f874108787/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b8010ebf400d1ad29ce3e5c9100ed5ec/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b8010ebf400d1ad29ce3e5c9100ed5ec/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/a2a5ce4c6326f424a33f244a43fd1232/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/a2a5ce4c6326f424a33f244a43fd1232/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/trisys-asfahan/.gradle/caches/transforms-3/195a4529b8fa216aba72cfffe860218d/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/trisys-asfahan/.gradle/caches/transforms-3/195a4529b8fa216aba72cfffe860218d/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/748bacf36b15a1672d2f96bf8bacbcdc/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/748bacf36b15a1672d2f96bf8bacbcdc/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f4ba5a3ff76900f9d093d35a7e39019f/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f4ba5a3ff76900f9d093d35a7e39019f/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/01afbd0f9fd8e79e7895721300b26fc3/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/01afbd0f9fd8e79e7895721300b26fc3/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ac040a0ca01214fe2b6372db73818228/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ac040a0ca01214fe2b6372db73818228/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5644da21830e1267e175b19587c85d40/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5644da21830e1267e175b19587c85d40/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/66cf1e103253b5eee611b294a7218b91/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/66cf1e103253b5eee611b294a7218b91/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/615479644c77a782931208906c74dd18/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/615479644c77a782931208906c74dd18/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3bb2cf05250851271fe15097df3eb931/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3bb2cf05250851271fe15097df3eb931/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9ce4caee1159279f5ca4a746518b4e25/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9ce4caee1159279f5ca4a746518b4e25/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e438299141a2b4aa4888ce572e7d9aef/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e438299141a2b4aa4888ce572e7d9aef/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/95cc7445bf85766eac65c2bfe1f78a16/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/95cc7445bf85766eac65c2bfe1f78a16/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/ad3c9eb459e3bee2b438756e7062dc49/transformed/jetified-firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/ad3c9eb459e3bee2b438756e7062dc49/transformed/jetified-firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/df594083beef421b82454dddf6a3b9c3/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/df594083beef421b82454dddf6a3b9c3/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3ccb8a7529fc8bf8ae8db056f18ea2f8/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3ccb8a7529fc8bf8ae8db056f18ea2f8/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a1f9f5621296598f8e2134e5a624bc9/transformed/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/4a1f9f5621296598f8e2134e5a624bc9/transformed/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/4f04a71d25aff983646c8f75ff74f11a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/4f04a71d25aff983646c8f75ff74f11a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/052b5addf5118831f28fa511b44afa43/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/052b5addf5118831f28fa511b44afa43/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9dcf1dbe2c7597eeb9f79ca33cc7fbf0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9dcf1dbe2c7597eeb9f79ca33cc7fbf0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2027280e65c59494bfb7b88c7bf1057/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2027280e65c59494bfb7b88c7bf1057/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/6392d286930206aba38b4ab9d3c8de76/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/6392d286930206aba38b4ab9d3c8de76/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3c627c2c64042d61b3e3bc483fc9b59b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3c627c2c64042d61b3e3bc483fc9b59b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6b686d9061f5facd9d896dd555e2640/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6b686d9061f5facd9d896dd555e2640/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9b01611d655563059df039a958641cc5/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9b01611d655563059df039a958641cc5/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/12406b617b6090009d5b72b5321c4813/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/12406b617b6090009d5b72b5321c4813/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/55dbb9dd0bea211e02cfc60916e5a4f4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/55dbb9dd0bea211e02cfc60916e5a4f4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/d2ecdacc0d8a102c5dbcab08e29c68e3/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/d2ecdacc0d8a102c5dbcab08e29c68e3/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0b2ef2d983321401ce329e0cc3adf13a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0b2ef2d983321401ce329e0cc3adf13a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1a19b23e4d134d45393cb862db4f1959/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/1a19b23e4d134d45393cb862db4f1959/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3c5efe20fcc9035ff6c2ae8d0e27906a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/3c5efe20fcc9035ff6c2ae8d0e27906a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/179c3a32489c221daed92522c2a70a02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/179c3a32489c221daed92522c2a70a02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/56b084a1026c08bac475c5d614c8096e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/56b084a1026c08bac475c5d614c8096e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/7454d9843c919450f6d5435b6cb7c26f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/7454d9843c919450f6d5435b6cb7c26f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/31df19c0cc56678b88d2d090884a46dd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/31df19c0cc56678b88d2d090884a46dd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b6465086c69305fe80f3ea21a16ab863/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b6465086c69305fe80f3ea21a16ab863/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/4e7e49ba726351eaa3cb3e53a584dd2b/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/4e7e49ba726351eaa3cb3e53a584dd2b/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f6cef41d8828ad3ae46d22993ad96507/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f6cef41d8828ad3ae46d22993ad96507/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/36fe997d8e0b616dab17b9599b28cbdd/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/36fe997d8e0b616dab17b9599b28cbdd/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/a695c1c708351f2b3d170fd4d5b6745b/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/a695c1c708351f2b3d170fd4d5b6745b/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ff7a64f925f722683a7640f55105d553/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ff7a64f925f722683a7640f55105d553/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f0d432bfb1f738ed8a4d5951c666b5c5/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/f0d432bfb1f738ed8a4d5951c666b5c5/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/841edcdf09de984158fea4d05205e665/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/841edcdf09de984158fea4d05205e665/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ec8cdc2b88f665fcebf108de6962e0c2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ec8cdc2b88f665fcebf108de6962e0c2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/89837b0fe549f1677a6e03f6da99474a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/89837b0fe549f1677a6e03f6da99474a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/d583d23f5317275dab9e185cf7939da7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/d583d23f5317275dab9e185cf7939da7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/522fa267deff15487438a819543bffba/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/522fa267deff15487438a819543bffba/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/6cbd8d12134534c387fe36c1ede7776c/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/trisys-asfahan/.gradle/caches/transforms-3/6cbd8d12134534c387fe36c1ede7776c/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/fbdbc47178d7c2ceee3a19f7553b2b26/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/fbdbc47178d7c2ceee3a19f7553b2b26/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e9f85a70bf02dee0e2804f7ecb2ce9b0/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e9f85a70bf02dee0e2804f7ecb2ce9b0/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cfcc645cae72e549fa15172e682b9b2c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cfcc645cae72e549fa15172e682b9b2c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/trisys-asfahan/.gradle/caches/transforms-3/9125818c7702fbe54de76dfddb453681/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/trisys-asfahan/.gradle/caches/transforms-3/9125818c7702fbe54de76dfddb453681/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/71e0ddd7fb065b17878e77cc277aa7a6/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/71e0ddd7fb065b17878e77cc277aa7a6/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/18cbbc2420984a8cc23de2b510763dc8/transformed/jetified-play-services-measurement-base-15.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /Users/trisys-asfahan/.gradle/caches/transforms-3/18cbbc2420984a8cc23de2b510763dc8/transformed/jetified-play-services-measurement-base-15.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b65d6a2a88a4360bb5d6b4cda46863d8/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b65d6a2a88a4360bb5d6b4cda46863d8/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b24649aa5fbdef18d352a14cc6c09833/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+service#com.wix.reactnativenotifications.core.ProxyService
+ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:12:9-86
+	android:name
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:12:18-83
+service#com.wix.reactnativenotifications.fcm.FcmInstanceIdListenerService
+ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:13:9-20:19
+	android:exported
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:14:13-93
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT+action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:16:13-19:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:17:17-78
+	android:name
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:17:25-75
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:18:17-80
+	android:name
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:18:25-77
+service#com.wix.reactnativenotifications.fcm.FcmInstanceIdRefreshHandlerService
+ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:21:9-24:72
+	android:exported
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:23:13-37
+	android:permission
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from [:react-native-notifications] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Debug/AndroidManifest.xml:22:13-99
+queries
+ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-78
+provider#androidx.core.content.FileProvider
+ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+	android:exported
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+	android:resource
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+	android:theme
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/31b17e3f2bf6d92513ae6811a1921a5e/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cf99ad3b60e9c412cd5d94179d84dcad/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:33:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:45:28-51
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/trisys-asfahan/.gradle/caches/transforms-3/2c1d69f85bb31879ec0e89903094e7a6/transformed/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/trisys-asfahan/.gradle/caches/transforms-3/85dc8a140dcfc48e4eeee5c39af2380b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/f2bc3667b88f1dbbd6b3e57c97025523/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/9deed6dab6ba1f04314934ade7fa3685/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c6a28f7cf0ef86a86d0e1d424d3af3b8/transformed/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/trisys-asfahan/.gradle/caches/transforms-3/9125818c7702fbe54de76dfddb453681/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/trisys-asfahan/.gradle/caches/transforms-3/9125818c7702fbe54de76dfddb453681/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/ebec3799f1effded51d8827b1ef890e5/transformed/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/cb8b0e1efca789a8e458d27599eff458/transformed/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/b7a0f14d26ab70e2f6670a5bb0583dd6/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/trisys-asfahan/.gradle/caches/transforms-3/b0f219bcfec4ef6b6a2cfd3b1f6aac26/transformed/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/0316cb3deabae197b4417b5e820b9dab/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/e1e6be3cb445c448417c8c1236c4e483/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/trisys-asfahan/.gradle/caches/transforms-3/c1fced73c12824db35b3e20a45a4ec61/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
