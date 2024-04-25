@@ -38,14 +38,14 @@ export default function ProfileIcon({ photo, name, iconSize }) {
   }
 
   const randomizeColor = useMemo(() => {
-    return COLORS[name.length % COLORS.length];
+    return COLORS[name?.length % COLORS.length];
   }, [name]);
 
   const iconLabel = useMemo(() => {
-    const words = name.split(" ");
+    const words = name?.split(" ");
 
     const lbl =
-      words.length > 1
+      words?.length > 1
         ? `${words[0].slice(0, 1)}${words[1].slice(0, 1)}`
         : name.slice(0, 2);
 

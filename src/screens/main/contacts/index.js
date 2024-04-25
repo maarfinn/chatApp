@@ -147,10 +147,10 @@ export default function Contacts({ route, navigation }) {
 
   const callAllUser = async () => {
     const res = await chatService.getAllUsersList();
-    const transformedData = res?.items?.map((item) => item.user);
+    const transformedData = res?.items?.map((item) => item.user) || [];
     console.log("res", transformedData);
     if (transformedData?.length > 0) {
-      setSearchedUsers(transformedData);
+      // setSearchedUsers(transformedData);
       setIsLoader(false);
     }
   };
@@ -162,7 +162,7 @@ export default function Contacts({ route, navigation }) {
   return (
     <View style={styles.container}>
       {isLoader && <Indicator color={"red"} size={40} />}
-      {/* <View style={styles.dialogTypeContainer}>
+      <View style={styles.dialogTypeContainer}>
         {!isGroupDetails && (
           <TouchableOpacity
             style={styles.dialogType}
@@ -180,8 +180,8 @@ export default function Contacts({ route, navigation }) {
             </Text>
           </TouchableOpacity>
         )}
-      </View> */}
-      {/* <View style={styles.searchUser}>
+      </View>
+      <View style={styles.searchUser}>
         <TextInput
           style={styles.searchInput}
           autoCapitalize="none"
@@ -192,7 +192,7 @@ export default function Contacts({ route, navigation }) {
           onSubmitEditing={searchUsers}
           value={keyword}
         />
-      </View> */}
+      </View>
       <View style={selectedUsers.length > 0 && styles.containerCeletedUsers}>
         <FlatList
           data={selectedUsers}
