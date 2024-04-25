@@ -1,12 +1,12 @@
 {
-  "name": "butterfly",
-  "displayName": "butterfly",
-  "senderID": "956112912903",
+  "name": "Rnchat",
+  "displayName": "Rnchat",
+  "senderID": "147299227261",
   "connectyCubeConfig": [
     {
-      "appId": 7154,
-      "authKey": "-5VBLPQ3RS7xM49",
-      "authSecret": "PrAXqrTzqcrwDhE"
+      "appId": 7674,
+      "authKey": "SzTtz7BBAuC2dKt",
+      "authSecret": "cuRKmPtsXzKn76X"
     },
     { "chat": {
       "streamManagement": {

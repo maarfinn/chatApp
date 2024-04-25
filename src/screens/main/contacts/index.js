@@ -1,28 +1,20 @@
-import React, {useEffect, useState} from 'react';
-import {
-  StyleSheet,
-  View,
-  TextInput,
-  FlatList,
-  Text,
-  TouchableOpacity,
-} from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import IconGroup from 'react-native-vector-icons/FontAwesome';
-import UsersService from '../../../services/users-service';
-import Indicator from '../../components/indicator';
-import Participant from './participant';
-import Avatar from '../../components/avatar';
-import {showAlert} from '../../../helpers/alert';
-import CreateBtn from '../../components/createBtn';
-import {BTN_TYPE} from '../../../helpers/constants';
-import ChatService from '../../../services/chat-service';
-import {StackActions} from '@react-navigation/compat';
-import authService from '../../../services/auth-service';
+import React, { useState } from 'react'
+import { StyleSheet, View, TextInput, FlatList, Text, TouchableOpacity } from 'react-native'
+import Icon from 'react-native-vector-icons/MaterialIcons'
+import IconGroup from 'react-native-vector-icons/FontAwesome'
+import UsersService from '../../../services/users-service'
+import Indicator from '../../components/indicator'
+import Participant from './participant'
+import Avatar from '../../components/avatar'
+import { showAlert } from '../../../helpers/alert'
+import CreateBtn from '../../components/createBtn'
+import { BTN_TYPE } from '../../../helpers/constants'
+import ChatService from '../../../services/chat-service'
+import {  StackActions } from '@react-navigation/compat'
 
-export default function Contacts({route, navigation}) {
-  const dialog = route.params?.dialog;
-  const isGroupDetails = !!dialog;
+export default function Contacts ({ route, navigation }) {
+  const dialog = route.params?.dialog
+  const isGroupDetails = !!dialog
 
   const [keyword, setKeyword] = useState('');
   const [isLoader, setIsLoader] = useState(false);
@@ -30,24 +22,24 @@ export default function Contacts({route, navigation}) {
   const [selectedUsers, setSelectedUsers] = useState([]);
   const [searchedUsers, setSearchedUsers] = useState([]);
 
-  const keyExtractor = (item, index) => index.toString();
+  const keyExtractor = (item, index) => index.toString()
 
-  const toggleUserSelect = user => {
-    const newArr = [];
+  const toggleUserSelect = (user) => {
+    const newArr = []
     selectedUsers.forEach(elem => {
       if (elem.id !== user.id) {
-        newArr.push(elem);
+        newArr.push(elem)
       }
-    });
-    setSelectedUsers(newArr);
-  };
+    })
+    setSelectedUsers(newArr)
+  }
 
-  const toggleUserUnselect = user => {
-    setSelectedUsers([...selectedUsers, user]);
-  };
+  const toggleUserUnselect = (user) => {
+    setSelectedUsers([...selectedUsers, user])
+  }
 
-  const _renderUser = ({item}) => {
-    const isSelected = selectedUsers.find(elem => elem.id === item.id);
+  const _renderUser = ({ item }) => {
+    const isSelected = selectedUsers.find(elem => elem.id === item.id)
     return (
       <Participant
         user={item}
@@ -55,130 +47,103 @@ export default function Contacts({route, navigation}) {
         isGroupDialog={isGroupDialog}
         isSelected={!!isSelected}
       />
-    );
-  };
+    )
+  }
 
   const changeTypeDialog = () => {
-    setSelectedUsers([]);
-    setIsGroupDialog(!isGroupDialog);
-  };
+    setSelectedUsers([])
+    setIsGroupDialog(!isGroupDialog)
+  }
 
-  const _renderSelectedUser = ({item}) => {
+  const _renderSelectedUser = ({ item }) => {
     return (
-      <TouchableOpacity
-        style={styles.selectedUser}
-        onPress={() => toggleUserSelect(item)}>
-        <View style={{paddingLeft: 10}}>
-          <Avatar photo={item.avatar} name={item.full_name} iconSize="medium" />
-          <View
-            style={{
-              position: 'absolute',
-              bottom: 7,
-              right: 7,
-              backgroundColor: 'white',
-              width: 20,
-              height: 20,
-              borderRadius: 10,
-            }}>
-            <Icon name="cancel" size={20} color="grey" />
+      <TouchableOpacity style={styles.selectedUser} onPress={() => toggleUserSelect(item)}>
+        <View style={{ paddingLeft: 10 }}>
+          <Avatar
+            photo={item.avatar}
+            name={item.full_name}
+            iconSize="medium"
+          />
+          <View style={{ position: 'absolute', bottom: 7, right: 7, backgroundColor: 'white', width: 20, height: 20, borderRadius: 10 }}>
+            <Icon name="cancel" size={20} color='grey' />
           </View>
         </View>
-        <Text numberOfLines={2} style={{textAlign: 'center', color: 'grey'}}>
-          {item.full_name}
-        </Text>
-      </TouchableOpacity>
-    );
-  };
+        <Text numberOfLines={2} style={{ textAlign: 'center',  color: 'grey' }}>{item.full_name}</Text>
+      </TouchableOpacity >
+    )
+  }
 
-  const onSelectUser = user => {
+  const onSelectUser = (user) => {
     // 1-1 chat
     if (!isGroupDialog) {
-      return ChatService.createPrivateDialog(user.id).then(newDialog => {
-        navigation.dispatch(StackActions.popToTop());
-        navigation.push('Chat', {dialog: newDialog});
-      });
+      return ChatService.createPrivateDialog(user.id)
+        .then((newDialog) => {
+          navigation.dispatch(StackActions.popToTop())
+          navigation.push('Chat', { dialog: newDialog })
+        })
     }
 
     // group chat
-    const isUserSelected = selectedUsers.find(elem => elem.id === user.id);
+    const isUserSelected = selectedUsers.find(elem => elem.id === user.id)
     if (isUserSelected) {
-      toggleUserSelect(user);
+      toggleUserSelect(user)
     } else {
-      const occupantsCount = dialog ? dialog.occupants_ids.length : 1;
+      const occupantsCount = dialog ? dialog.occupants_ids.length : 1
       if (selectedUsers.length + occupantsCount === 9) {
-        showAlert('Maximum 9 participants');
-        return;
+        showAlert('Maximum 9 participants')
+        return
       }
 
-      toggleUserUnselect(user);
+      toggleUserUnselect(user)
     }
-  };
+  }
 
   const searchUsers = () => {
-    let keywordTrimmed = keyword.trim();
+    let keywordTrimmed = keyword.trim()
 
     if (keywordTrimmed.length > 2) {
-      setIsLoader(true);
+      setIsLoader(true)
 
       UsersService.listUsersByFullName(keywordTrimmed, dialog?.occupants_ids)
         .then(users => {
-          console.log('users get', users);
-          setSearchedUsers(users);
-          setIsLoader(false);
+          setSearchedUsers(users)
+          setIsLoader(false)
         })
         .catch(() => {
-          setIsLoader(false);
-        });
+          setIsLoader(false)
+        })
     } else {
-      showAlert('Enter more than 3 characters');
+      showAlert('Enter more than 3 characters')
     }
-  };
+  }
 
   const goToCreateDialogScreen = () => {
     if (isGroupDetails) {
-      const addParticipantAction = route.params?.addParticipant || false;
-      navigation.goBack();
-      addParticipantAction(selectedUsers);
-      return;
+      const addParticipantAction = route.params?.addParticipant || false
+      navigation.goBack()
+      addParticipantAction(selectedUsers)
+      return
     }
-    navigation.push('CreateDialog', {users: selectedUsers});
-  };
-
-  const callAllUser = async () => {
-    const resss = await authService.getAllUser();
-    console.log('resssssss', resss.items);
-    const transformedData = resss.map(item => item.user);
-    setSearchedUsers(transformedData);
-  };
-
-  useEffect(() => {
-    callAllUser();
-  });
+    navigation.push('CreateDialog', { users: selectedUsers })
+  }
 
   return (
     <View style={styles.container}>
-      {isLoader && <Indicator color={'red'} size={40} />}
+      {isLoader && (
+        <Indicator color={'red'} size={40} />
+      )}       
       <View style={styles.dialogTypeContainer}>
-        {!isGroupDetails && (
-          <TouchableOpacity
-            style={styles.dialogType}
-            onPress={changeTypeDialog}>
-            {!isGroupDialog ? (
-              <IconGroup name="group" size={25} color="#48A6E3" />
-            ) : (
-              <IconGroup name="user" size={25} color="#48A6E3" />
-            )}
-            <Text style={styles.dialogTypeText}>
-              {isGroupDialog
-                ? `Switch to private chat creation`
-                : `Switch to group chat creation`}
-            </Text>
+        {!isGroupDetails &&
+          <TouchableOpacity style={styles.dialogType} onPress={changeTypeDialog}>
+            {!isGroupDialog ? <IconGroup name="group" size={25} color='#48A6E3' /> :
+              <IconGroup name="user" size={25} color='#48A6E3' />
+            }
+            <Text style={styles.dialogTypeText}>{isGroupDialog ? `Switch to private chat creation` : `Switch to group chat creation`}</Text>
           </TouchableOpacity>
-        )}
+        }
       </View>
       <View style={styles.searchUser}>
-        <TextInput
-          style={styles.searchInput}
+        <TextInput style={styles.searchInput}
           autoCapitalize="none"
           placeholder="Search users..."
           placeholderTextColor="grey"
@@ -192,33 +157,30 @@ export default function Contacts({route, navigation}) {
         <FlatList
           data={selectedUsers}
           keyExtractor={keyExtractor}
-          renderItem={item => _renderSelectedUser(item)}
+          renderItem={(item) => _renderSelectedUser(item)}
           horizontal={true}
         />
       </View>
-      <View style={{flex: 1}}>
+      <View style={{ flex: 1 }}>
         <FlatList
           data={searchedUsers}
           keyExtractor={keyExtractor}
-          renderItem={item => _renderUser(item)}
+          renderItem={(item) => _renderUser(item)}
         />
       </View>
       {selectedUsers.length > 0 && (
-        <CreateBtn
-          goToScreen={goToCreateDialogScreen}
-          type={BTN_TYPE.CONTACTS}
-        />
+        <CreateBtn goToScreen={goToCreateDialogScreen} type={BTN_TYPE.CONTACTS} />
       )}
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1
   },
   searchUser: {
-    margin: 10,
+    margin: 10
   },
   searchInput: {
     fontSize: 18,
@@ -231,11 +193,11 @@ const styles = StyleSheet.create({
   },
   dialogTypeContainer: {
     marginHorizontal: 12,
-    paddingVertical: 10,
+    paddingVertical: 10
   },
   dialogType: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   dialogTypeText: {
     marginHorizontal: 5,
@@ -245,7 +207,7 @@ const styles = StyleSheet.create({
   containerCeletedUsers: {
     borderBottomWidth: 0.5,
     borderColor: 'grey',
-    margin: 10,
+    margin: 10
   },
   selectedUser: {
     width: 70,
@@ -255,6 +217,6 @@ const styles = StyleSheet.create({
   userNotFound: {
     fontSize: 17,
     marginTop: 20,
-    textAlign: 'center',
-  },
-});
+    textAlign: 'center'
+  }
+})
