@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/trisys-asfahan/Desktop/chatApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/trisys-asfahan/.gradle/caches/transforms-3/44833ab2ce27683cffc4acae38dcbceb/transformed/jetified-firebase-messaging-21.1.0/res/values-en-rGB/values.xml",

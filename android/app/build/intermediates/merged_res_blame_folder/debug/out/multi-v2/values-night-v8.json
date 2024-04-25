@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/trisys-asfahan/Desktop/chatApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/trisys-asfahan/.gradle/caches/transforms-3/748bacf36b15a1672d2f96bf8bacbcdc/transformed/material-1.1.0/res/values-night-v8/values-night-v8.xml",

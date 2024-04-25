@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/trisys-asfahan/Desktop/connectycube-reactnative-samples/RNChat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
+            "outputFile": "/Users/trisys-asfahan/Desktop/chatApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "/Users/trisys-asfahan/.gradle/caches/transforms-3/5a71c8c3af7d887598359e23d5b6b787/transformed/core-1.6.0/res/values-hy/values-hy.xml",
